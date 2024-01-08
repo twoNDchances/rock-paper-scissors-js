@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(33, 31, 31);
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+header {
+    border-bottom: 7px solid white;
+    padding-bottom: 100px;
+}
+
+.result {
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 40px;
+    color: black;
+    padding: 30px;
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.finger {
+    height: 60px;
+    width: 60px;
+    transform: rotate(180deg) translate(45%, -10%);
+    position: absolute;
+    left: 50%;
+    padding-top: 5px;
+}
+
+section {
+    float: left;
+}
+
+.content {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+.score {
+    position: absolute;
+    left: 2rem;
+    font-size: 30px;
+    top: 10px;
+}
+
+.again {
+    position: absolute;
+    right: 2rem;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.status {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    font-size: 30px;
+}
+
+.process {
+    font-size: 40px;
+    text-align: center;
+}
+
+.final-result {
+    font-size: 50px;
+    text-align: center;
+}

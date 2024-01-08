@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SC website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <h1 id="topic">Hello, this is my website and prepare to my React button!</h1>
+    <p class="first-paragraph">I want to become a React.js Developer as fast as possible!</p>
+    <img src="https://thienanblog.com/wp-content/uploads/2017/10/react-logo-768x576.png" alt="ReactJS">
+    <form action="">
+        <input type="text" placeholder="Enter your name">
+        <input type="submit" value="Submit">
+    </form> -->
+    <header>
+        <section>
+            <b><p class="score">Score: 0</p></b>
+        </section>
+        <b><p class="status"></p></b>
+        <section>
+            <button class="button again"><b>Again</b></button>
+        </section>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <main>
+        <b><p class="result">???</p></b>
+        <h2>Choose one</h2>
+        <img class="finger" src="arrow_finger.png" alt="arrow-finger">
+        <div class="content">
+            <button class="button rock" onclick="isClicked('rock')">
+                <b><p>Rock</p></b>
+            </button>
+            <button class="button paper" onclick="isClicked('paper')">
+                <b><p>Paper</p></b>
+            </button>
+            <button class="button scissors" onclick="isClicked('scissors')">
+                <b><p>Scissors</p></b>
+            </button>
+        </div>
+        <b><p class="process">- - -</p></b>
+        <b><p class="final-result"></p></b>
+    </main>
+    <script src="main.js">
+    </script>
+</body>
+</html>
